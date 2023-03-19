@@ -15,11 +15,7 @@ CinemaMod requires a build of Java Chromium Embedded Framework to work - it uses
 
 During development, it is necessary to have a build of java-cef for the mod to work properly. There is a gradle task to download the java-cef binaries into your gradle `build` directory.
 
-First, clone this repo:
-```
-$ git clone https://github.com/CinemaMod/CinemaMod-Fabric
-$ cd CinemaMod-Fabric
-```
+First, make sure you are in the `fabric` folder. 
 
 Then, clone the java-cef submodule (brings in the java-cef code)
 ```
